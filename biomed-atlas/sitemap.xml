@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/articles/mri-basics.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/articles/biomechanics.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/articles/ai-healthcare.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/articles/ecg-technology.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/articles/biomaterials.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/articles/3d-bioprinting.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/articles/pulse-oximeter.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/articles/prosthetics.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/articles/biosensors.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/articles/tissue-engineering.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://YOUR-SITE-NAME.netlify.app/articles/biomedical-careers.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+</urlset>
