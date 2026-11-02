@@ -22,6 +22,36 @@
 
 <link rel="stylesheet" href="../styles.css">
 
+<style>
+.article-image {
+    margin: 0 0 40px;
+    width: 100%;
+}
+
+.article-image img {
+    display: block;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 16px;
+    background: #eaf2f5;
+}
+
+.article-image figcaption {
+    font-size: 13px;
+    color: #84939d;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .article-image img {
+        height: 260px;
+    }
+}
+</style>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -56,53 +86,73 @@
 
 <main>
 <section class="section-pad">
-<article class="container" style="max-width:820px">
+
+<article class="container article-page">
 
 <p class="eyebrow">TISSUE ENGINEERING · BIOMED ATLAS</p>
 
-<h1 style="font:800 clamp(36px,5vw,58px)/1.12 Manrope,sans-serif;letter-spacing:-2px;color:#102b46;margin:0 0 20px">
-Exploring 3D Bioprinting
-</h1>
+<h1>Exploring 3D Bioprinting</h1>
 
-<p style="font-size:18px;color:#667788;margin-bottom:25px">
+<p class="article-deck">
 An introduction to bioinks, bioprinting methods and tissue engineering research.
 </p>
 
-<!-- 3D BIOPRINTING IMAGE -->
-<figure style="margin:0 0 40px;">
+<!-- DEDICATED 3D BIOPRINTING IMAGE -->
+<figure class="article-image">
 <img
-src="../assets/bioprinting-prosthetics.png"
-alt="3D bioprinting of a vascularised heart model in a biomedical research laboratory"
-style="width:100%;height:380px;object-fit:cover;border-radius:16px;"
-loading="lazy"
+src="../assets/bioprinting.png"
+alt="3D bioprinter depositing bioink layer by layer to create an engineered tissue structure"
+width="1200"
+height="700"
+loading="eager"
 >
-<figcaption style="font-size:13px;color:#84939d;margin-top:10px;">
-3D bioprinting and advanced biomedical engineering technologies.
+
+<figcaption>
+3D bioprinting uses specialised bioinks and layer-by-layer fabrication to support tissue engineering research.
 </figcaption>
 </figure>
 
-<div style="background:#eaf6f3;border-left:3px solid #39bcae;padding:20px;margin-bottom:35px">
+<!-- AT A GLANCE -->
+<div class="article-callout">
 <strong>At a glance</strong>
-<p style="margin-bottom:0">
+<p>
 3D bioprinting is an emerging research area that uses additive manufacturing approaches to deposit cells and biomaterials in organised patterns.
 </p>
 </div>
 
-<h2 style="font-family:Manrope,sans-serif">The science behind it</h2>
+<h2>The science behind it</h2>
 
 <p>
-A bioink may contain cells, hydrogels or other biomaterials. Depending on the technique, material can be deposited through extrusion, droplets or light-based processes. Researchers study printability, cell viability, structure and maturation.
+A bioink may contain living cells, hydrogels or other biomaterials. Depending on the technique, material can be deposited through extrusion, droplets or light-based processes. Researchers study printability, cell viability, structure and maturation.
 </p>
 
-<h2 style="font-family:Manrope,sans-serif">Applications and importance</h2>
+<h2>How does 3D bioprinting work?</h2>
 
 <p>
-Potential research applications include tissue models, disease modelling, drug testing and investigation of tissue repair. Printing fully functional, transplant-ready complex organs remains a substantial scientific challenge.
+A digital design is converted into layers that guide the printing process. A bioprinter deposits bioink in a controlled pattern, building a three-dimensional structure layer by layer. The printed construct may then undergo a maturation process in carefully controlled laboratory conditions.
 </p>
 
-<h2 style="font-family:Manrope,sans-serif">A note on interpretation</h2>
+<h2>Applications and importance</h2>
 
 <p>
+Potential research applications include tissue models, disease modelling, drug testing and investigation of tissue repair. These models may help researchers study biological processes and evaluate experimental treatments.
+</p>
+
+<h2>Challenges in 3D bioprinting</h2>
+
+<p>
+Researchers continue to investigate challenges such as maintaining cell viability, reproducing complex tissue structures, developing functional blood-vessel networks and ensuring long-term stability. Printing fully functional, transplant-ready complex organs remains a substantial scientific challenge.
+</p>
+
+<h2>The role of biomedical engineers</h2>
+
+<p>
+Biomedical engineers contribute by developing bioprinters, selecting suitable biomaterials, designing tissue structures and evaluating the performance of printed constructs. Their work brings together biology, materials science, mechanical engineering and computing.
+</p>
+
+<h2>A note on interpretation</h2>
+
+<p class="article-caution">
 3D bioprinting is an active research field. Experimental results should not be interpreted as proof that printed tissues are ready for routine clinical transplantation.
 </p>
 
@@ -112,7 +162,7 @@ Explore more articles →
 </a>
 </p>
 
-<p style="font-size:11px;color:#84939d;margin-top:50px">
+<p class="article-meta">
 Educational content · BioMed Atlas
 </p>
 
